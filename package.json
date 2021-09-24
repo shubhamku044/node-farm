@@ -4,8 +4,11 @@
 	"description": "a node farm website",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "nodemon index.js"
 	},
 	"author": "shubham sharma",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"slugify": "^1.6.0"
+	}
 }
